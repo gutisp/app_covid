@@ -1,0 +1,240 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-weight: 300;
+	font-size: 100%;
+
+}
+body{
+	font-family: 'Trebuchet MS', Helvica, sans-serif;
+}
+img{
+	max-width: 100%;;
+}
+#container{
+	background: url(../imagens/cabecalho3.jpg) no-repeat;
+}
+.basico{
+	width: 75%;
+	margin: 0 auto;
+}
+.cabecalho{
+	height: 150px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.cabecalho h1{
+	padding-left: 6%;
+	padding-top: 1%;
+	line-height: 2em;
+	font-size: 2em;
+}
+.cabecalho a{
+	text-decoration: none;
+}
+.cabecalho li{
+	display: inline;
+	list-style: none;	
+}
+.cabecalho ul{
+	text-align: center;
+}
+.cabecalho ul a{
+	line-height: 2em;
+	font-size: 1.5em;
+	color: #fff;
+	padding: 0.5em 1.5em;
+	background: url(../imagens/divisor.jpg) no-repeat left center;
+}
+.cabecalho ul .primeira a{
+	background: none;
+}
+.cabecalho li a:hover{	
+	background-color: rgba(135,206,250,0.9);
+	color: #E0F8F7;
+}
+.corpo{
+	background: #ddd;
+}
+a{
+	text-decoration: none;
+}
+.noticia{
+	background: #E0F8F7;
+	color: #130400;
+	width: 49%;
+	float: left;
+	margin-bottom: 2%;
+	min-height: 480px;
+}
+.primeiro{
+	margin-right: 2%;
+}
+
+.noticia img, iframe{
+	width: 100%;
+}
+.noticia h2{
+	font-size: 1.8em;
+	line-height: 1.5em;
+	text-align: center;
+	margin-bottom: 1%;
+}
+.noticia h3{
+	font-size: 1.3em;
+	text-align: center;
+	margin-bottom: 1%;
+}
+.noticia p{
+	text-align: left;
+	margin: 1% 1%;
+	color: #130400;
+}
+#rodape{
+	width: 100%;
+	display: table;
+	clear: both;
+	background: #4169E1;
+	margin-top: 2%;
+}
+#redes_sociais{
+	float: left;
+	width: 30%;
+	padding:10px 30px;
+}
+#redes_sociais h2{
+	line-height: 1.5em;
+	font-size: 1.5em;
+}
+#redes_sociais img{
+	border-radius: 58px;
+}
+#rodape span{
+	width: 70%;
+	float: left;
+	font-size: 2em;
+	margin-top: 3%;
+}
+
+/*Pagina Sobre*/
+
+.sobre img{
+	float: left;
+	width: 30%;
+	margin: 0 2% 2% 0;
+	border-radius: 60px;
+}
+.sobre p{
+	line-height: 1.5em;
+	font-size: 1.3em;
+	font-weight: bold;
+	float: left;
+	width: 50%;
+}
+.sobre  p button{
+	margin-top: 10px;
+	border-radius: 5px;
+	padding: 5px;
+	background: #4169E1;
+}
+.sobre  p button a{
+	text-decoration: none;
+	color: #fff;
+}
+/*Pagina Saiba Mais*/
+
+.saiba-mais{
+	background: #E0F8F7;
+	padding: 3%;
+}
+.saiba-mais h2{
+	line-height: 2em;
+	font-size: 2em;
+}
+.saiba-mais h3 a{
+	line-height: 1.6em;
+	font-size: 1em;
+	color: #130400;
+}
+
+@media screen and (max-width: 960px){
+.cabecalho ul{
+	text-align: right;
+}
+.cabecalho h1{
+	padding-left: 10%;
+}
+.cabecalho ul a{
+	font-size: 1.3em;
+	padding: 0.5em 1em;
+}
+.noticia{
+	width: 100%;
+}
+}
+@media screen and (max-width: 780px){
+.cabecalho ul a{
+	font-size: 1em;
+	padding: 0em 1em;
+}
+.cabecalho h1{
+	padding-left: 15%;
+}
+#redes_sociais{
+	width: 40%;
+}
+#redes_sociais h2{
+	font-size: 1.3em;
+}
+#rodape span{
+	width: 60%;
+	font-size: 1.5em;
+	padding-right: 2%;
+	padding-bottom: 2%;	
+}
+.sobre img{
+	width: 100%;
+	
+}
+.sobre p{
+	width: 100%;
+	margin-bottom: 2%;
+}
+.saiba-mais{
+	width: 100%;
+}
+}
+@media screen and (max-width: 500px){
+.cabecalho ul{
+	text-align: center;	
+}
+.cabecalho li{
+	display: block;	
+}
+.cabecalho ul a{
+	background: none;
+}
+.cabecalho h1{
+	display: none;
+}
+.corpo{
+	width: 100%;
+}
+#redes_sociais{
+	margin-left: 30%;
+	width: 100%;
+	margin-bottom: 2%;
+}
+#redes_sociais h2{
+	font-size: 1.5em;
+}
+#rodape span{
+	width: 100%;
+	font-size: 1.5em;
+	text-align: center;
+}
+}
+
+
+
